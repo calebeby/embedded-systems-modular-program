@@ -1,7 +1,7 @@
 #include "SegDisplay.h"
 
 BusOut Seg1(p5,p6,p7,p8,p9,p10,p11); // a-g (no dp)
-BusOut Seg2(p12,p13,p14,p15,p16,p17); // a-g (no dp)
+BusOut Seg2(p13,p14,p15,p16,p17,p18,p19); // a-g (no dp)
 
 void SegInit(void) {
     Seg1 = SegConvert(0); // display 0 when initialized
