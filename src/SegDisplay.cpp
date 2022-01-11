@@ -17,9 +17,9 @@ int SegConvert(char SegValue){
         case 3: SegByte = 0x4F; break;
         case 4: SegByte = 0x66; break;
         case 5: SegByte = 0x6D; break;
-        case 6; SegByte = 0x7D; break;
-        case 7; SegByte = 0x07; break;
-        case 9; segByte = 0x7f; break;
+        case 6: SegByte = 0x7D; break;
+        case 7: SegByte = 0x07; break;
+        case 9: SegByte = 0x7f; break;
         default: SegByte = 0x00; // if not 0-9, turn off
     }
     return SegByte;
